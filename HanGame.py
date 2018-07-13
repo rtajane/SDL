@@ -75,7 +75,7 @@ def guess_letter(letters_guessed):
         if guess not in ALPHABETH:
             print (guess, ' it is not in the alphabet , try again!')
         elif guess in letters_guessed:
-            print ('You have already guessed !!!').format(guess)
+            print ('You have already guessed !!!'.format(guess))
         else:
             return guess
 
